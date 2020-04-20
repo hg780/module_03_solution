@@ -28,17 +28,24 @@ h2 {
 	margin-top: 10px;
 }
 
+/* Make div to show their borders */
 section div, div {
 	border: 2px solid black;
 	background-color: silver;
+}
+
+/* Make the text not fill the div box */
+section div p {
+	padding: 20px;
 }
 
 .header-nav, .drop-list {
 	border: none;
 }
 
+/* The section box need leave some space to the edge of window */
 section {
-	padding: 10px;
+	padding: 20px;
 }
 
 .navbar-header {
@@ -88,5 +95,14 @@ section {
 	border-top: 1px solid transparent;
 	box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
 	background-color: gold;
+}
+
+a p {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.divider {
+	border:	1px	solid blue;
 }
 
